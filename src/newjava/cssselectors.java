@@ -14,6 +14,7 @@ public class cssselectors {
 		driver.findElement(By.linkText("compendiumdev")).click();
 		String ele = driver.findElement(By.cssSelector("html body [id='para1']")).getText();
 		 System.out.println(ele);
+		 System.out.println("again modified by me");
 
 	}
 
